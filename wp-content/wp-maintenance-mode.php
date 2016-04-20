@@ -22,13 +22,8 @@
         do_action('wm_head'); // this hook will be removed in the next versions
         do_action('wpmm_head');
         ?>
-        <link rel="stylesheet" href="http://localhost/brightenupalife/wp-content/themes/2016/foundation.min.css" type="text/css" media="screen" />
-        <link rel="stylesheet" href="http://localhost/brightenupalife/wp-content/themes/2016/style.css" type="text/css" media="screen" />
+        <link rel="stylesheet" href="http://brightenupalife.org.uk/wp-content/themes/2016/style.css" type="text/css" media="screen" />
         <style type="text/css">
-
-        body {
-            position: relative;
-        }
 
         .wrap {
             position: absolute;
@@ -57,7 +52,7 @@
             <?php if (!empty($heading)) { ?><h1><?php echo stripslashes($heading); ?></h1><?php } ?>
             <?php if (!empty($text)) { ?><h2><?php echo stripslashes($text); ?></h2><?php } ?>
 
-            <img class="logo" src="http://localhost/brightenupalife/wp-content/themes/2016/images/logo.png" />
+            <img class="logo" src="http://brightenupalife.org.uk/wp-content/themes/2016/images/logo.png" />
             <?php
             if (!empty($this->plugin_settings['modules']['countdown_status']) && $this->plugin_settings['modules']['countdown_status'] == 1) {
                 ?>
