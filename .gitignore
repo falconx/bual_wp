@@ -8,6 +8,7 @@ wp-content/plugins/*
 wp-content/themes/*
 wp-content/uploads/*
 wp-content/cache/*
+wp-content/upgrade/*
 
 # track our custom theme
 !wp-content/themes/2016/
@@ -66,4 +67,4 @@ Thumbs.db
 # add your own entries here
 !wp-content/mu-plugins/example-mu-plugin/
 !wp-content/plugins/example-plugin/
-!wp-content/themes/example-theme/
+!wp-content/themes/2016
